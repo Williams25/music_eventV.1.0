@@ -10,6 +10,7 @@ include 'verifica_login.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bulma.min.css" />
+    <link rel="stylesheet" href="css/main_principal.css" />
     <title>Music Event</title>
 </head>
 <body>
@@ -166,6 +167,9 @@ if (isset($_GET['mensagem']) && (!empty($_GET['mensagem']))) {
     echo $_GET['mensagem'];
 }
 
+?>
+<?php 
+  require_once "rodape.php"
 ?>
 </body>
 </html>

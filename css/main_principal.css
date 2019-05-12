@@ -42,3 +42,14 @@
   height: 40%;
   padding: 2%;
 }
+footer{
+  margin-top: 18%;
+  height: 50px;
+  border-top: 1px solid black;
+  width: 100%; 
+}
+footer p{
+  text-align: center;
+  margin-top: 1%;
+  width: 100%; 
+}

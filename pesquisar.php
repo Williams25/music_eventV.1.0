@@ -94,3 +94,6 @@ include 'verifica_login.php';
     endif;
   ?>
 </div>
+<?php 
+  require_once "rodape.php"
+?>

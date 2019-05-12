@@ -116,3 +116,6 @@ if ($total > 0) {
 // tira o resultado da busca da memória
 mysqli_free_result($result);
 ?>
+<?php 
+  require_once "rodape.php"
+?>

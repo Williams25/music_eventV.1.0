@@ -12,6 +12,7 @@ session_start();
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Sistema de Login - PHP + MySQL - Canal TI</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/main_principal.css" />
 	<link rel="stylesheet" href="css/bulma.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/login.css">
 </head>
@@ -57,6 +58,9 @@ session_start();
 			</div>
 		</div>
 	</section>
+	<?php 
+  require_once "rodape.php"
+?>
 </body>
 
 </html>

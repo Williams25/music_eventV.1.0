@@ -1,0 +1,44 @@
+.pesquisar_dados{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-wrap: nowrap;
+  margin-top: 3%;
+  width: 100%;
+}
+.pesquisar_dados button{
+  border: 1px solid #2f3640;
+  border-radius: 50%;
+  background: #2f3640;
+  height: 40px;
+  width: 40px;
+
+}
+.pesquisar_dados i{
+  color: white;
+}
+.pesquisar_dados i:hover{
+  color: #e84118;
+}
+.pesquisar_dados input{
+  outline: none;
+  background: none;
+  border: none;
+  border-bottom: 1px solid black; 
+}
+.exibi_dados{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.exibi_dados p{
+  border: 1px solid black;
+  margin: 1%;
+  width: 30%;
+  height: 40%;
+  padding: 2%;
+}
